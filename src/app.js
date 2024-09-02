@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
     res.send("jawad mughal")
 })
 app.use("/api/v1/user", (req, res) => {
-    res.send("jawad mughal")
+    res.send("jawad mughal ilyas")
 })
 
 export { app }
